@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Work.ua test" >
+    <parameter name="browser" value="chrome"/>
+    <test name="HomePageTest" >
+        <classes>
+            <class name="HomePageTest" />
+        </classes>
+    </test>
+    <test name="LoginPageTest" >
+        <classes>
+            <class name="LoginPageTest" />
+        </classes>
+    </test>
+    <test name="SignUpPageTest" >
+        <classes>
+            <class name="SignUpPageTest" />
+        </classes>
+    </test>
+    <test name="AdvancedSearchPageTest" >
+        <classes>
+            <class name="AdvancedSearchPageTest" />
+        </classes>
+    </test>
+</suite>
